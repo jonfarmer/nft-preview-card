@@ -101,16 +101,26 @@ p {
     font-weight: lighter;
     width: 50%;
     margin: 0px;
-    
+    color: hsl(215, 51%, 70%);
 }
 
-.specifics ul {
+.time li {
+    list-style-image: url(/images/icon-clock.svg);
+}
+
+.cost li {
+    list-style-image: url(/images/icon-ethereum.svg);
+}
+
+.details ul {
+    display: inline;
     list-style: none;
 }
 
-.specifics li {
-    display: flex;
+.details li {
+    display: inline;
     align-items: center;
+    margin-right: 10px;
 }
 
 .specifics img {
