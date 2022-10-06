@@ -1,21 +1,17 @@
 /*1.Global*/
-/*2.General*/
-/*3.Categories*/
-/*4.Functions*/
-/*5.Responsive*/
-
+/*2.Elements*/
+/*3.Classes*/
 
 
 /*1.Global*/
-* {
+body {
+    background: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
 }
 
 
-/*2.General*/
-body {
-    background: hsl(217, 54%, 11%);
-}
+/*2.Elements*/
+
 
 h3 {
     color: hsl(0, 0%, 100%);
@@ -38,7 +34,7 @@ a:hover {
 }
 
 
-/*3.Categories*/
+/*3.Classes*/
 .container {
     display: flex;
     justify-content: center;
@@ -191,11 +187,3 @@ hr {
     opacity: 30%;
     padding: 0px;
 }
-
-/*4.Functions*/
-
-
-
-
-
-/*5.Responsive*/
